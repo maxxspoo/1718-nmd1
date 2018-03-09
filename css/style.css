@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(158, 199, 212);
+    background-color: darkolivegreen;
 }
 
 .nav li {
@@ -20,11 +20,11 @@
 }
 
 .nav li a:hover {
-    background-color: rgb(134, 170, 180);
+    background-color: gray;
 }
 
 .blok1 {
-    background: #F9F9F9;
+    background: #d3d3d3;
     height: 500px;
     margin: 0 auto;
 }
@@ -85,11 +85,8 @@ html{
     content: "";
     left: 0;
     top: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
-    position: fixed;
-    background-image: -webkit-linear-gradient(0deg, pink 0%, lightblue 100%);
-    opacity: 0.6;
     z-index: -1;
   }
 
@@ -101,22 +98,19 @@ html{
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+    -webkit-box-shadow: -5px 7px 32px -7px rgba(0,0,0,0.58);
+    -moz-box-shadow: -5px 7px 32px -7px rgba(0,0,0,0.58);
+    box-shadow: -5px 7px 32px -7px rgba(0,0,0,0.58);
   }
   
 /* OVER
 ---------------------------------------------------- */
 
 .over img {
-    float: right;
+    float: left;
     margin: 0 auto;
 }
 
-.over_tekst {
-float: left;
-padding-top: 2%;
-padding-left: 3%;
-line-height: 3;
-}
 
 /* PORTFOLIO 
 ---------------------------------------------------- */
@@ -165,25 +159,21 @@ line-height: 3;
     right: 0px;
     text-decoration: none;
     color: white;
-    background-color: rgb(158, 199, 212);
+    background-color: darkolivegreen;
     font-size: 20px;
     padding: 1em;
-    margin-right: 70px;
+    border-radius: 40%;
+    margin-right: 35px;
  }
  
  .back-to-top:hover {   
-    background-color: rgb(134, 170, 180);
+    background-color: gray;
     text-decoration:none;
     color:#ffffff;
  }
   
-
- /* SKILLBAR
----------------------------------------------------- */
-
-
  .row {
-     width: 330%;;
+     width: 440%;;
  }
  .skillbar {
     position: relative;
@@ -193,9 +183,9 @@ line-height: 3;
 }
 
 .skillbar-bar {
-    height: 3px;
+    height: 5px;
     width: 0px;
-    background: pink;
+    background: darkolivegreen;
 }
 
 .skillbar-title {
