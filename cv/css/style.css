@@ -16,7 +16,7 @@
     color: white;
 }
 .fa-instagram {
-    background: purple;
+    background: #8a3ab9;
     color: white;
 } 
 .fa-linkedin {
@@ -90,11 +90,9 @@
     margin: 0 auto;
 }
 
-/* ALGEMEEN
----------------------------------------------------- */
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
  
@@ -117,6 +115,8 @@ html{
   }
 
 
+
+
   .container {
     max-width: 80%;
     margin: 100px;
@@ -129,18 +129,15 @@ html{
     box-shadow: -5px 7px 32px -7px rgba(0,0,0,0.58);
   }
   
-/* OVER
----------------------------------------------------- */
 
 .over img {
     float: left;
     margin: 0 auto;
 }
 
-
-/* PORTFOLIO 
----------------------------------------------------- */
-
+.over {
+    line-height: 2;
+}
 .gallery {
     background-color: white;
 }
@@ -164,19 +161,12 @@ html{
     padding-top: 60px;
 }
 
-
-
-/* CLEARFIX
----------------------------------------------------- */
-
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
   
-/* TERUG KNOP
----------------------------------------------------- */
 
 .back-to-top {
     display:none;
@@ -214,6 +204,10 @@ html{
     background: darkolivegreen;
 }
 
+.skillbar-bar:hover {
+    background: gray;
+}
+
 .skillbar-title {
     font-weight: 600;
     line-height: 1;
@@ -228,24 +222,17 @@ html{
     text-transform: uppercase;
 }
 
-
-
- /* PORTFOLIO
----------------------------------------------------- */
-
 .portcontainer {
     position: relative;
     float: left;
     margin-right: 20px;
   }
   
-  /* Make the image to responsive */
   .image {
     display: block;
     height: 300px;
   }
   
-  /* The overlay effect - lays on top of the container and over the image */
   .overlay {
     position: absolute;  
     background: rgb(0, 0, 0);
@@ -260,9 +247,7 @@ html{
     text-align: center;
   }
   
-  /* When you mouse over the container, fade in the overlay title */
   .portcontainer:hover .overlay {
     opacity: 1;
   }
-
-  #ervaringen { height: 600px; }
+  
