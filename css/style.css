@@ -1,0 +1,252 @@
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(158, 199, 212);
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: rgb(134, 170, 180);
+}
+
+.blok1 {
+    background: #F9F9F9;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.blok1_tekst{
+    padding-top: 2%;
+    padding-left: 2.5%;
+    float: left;
+}
+
+.blok1 img {
+    float: left;
+    margin: 0 auto;
+}
+.blok1 p {
+    line-height: 0.1;
+}
+
+.blok2 {
+    background: #ffff;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.blok2 p {
+    line-height: 0.1;
+}
+
+.blok2_tekst{
+    padding-top: 2%;
+    padding-left: 2.5%;
+    float: left;
+}
+
+.blok2 img {
+    float: right;
+    margin: 0 auto;
+}
+
+/* ALGEMEEN
+---------------------------------------------------- */
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ 
+ body {
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  body:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: -webkit-linear-gradient(0deg, pink 0%, lightblue 100%);
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+
+  .container {
+    max-width: 80%;
+    margin: 100px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  
+/* OVER
+---------------------------------------------------- */
+
+.over img {
+    float: right;
+    margin: 0 auto;
+}
+
+.over_tekst {
+float: left;
+padding-top: 2%;
+padding-left: 3%;
+line-height: 3;
+}
+
+/* PORTFOLIO 
+---------------------------------------------------- */
+
+.gallery {
+    background-color: white;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.responsive {
+    margin: 0 auto;
+    float: left;
+    width: 25%;
+    padding-left: 77px;
+    padding-top: 60px;
+}
+
+
+
+/* CLEARFIX
+---------------------------------------------------- */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* TERUG KNOP
+---------------------------------------------------- */
+
+.back-to-top {
+    display:none;
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(158, 199, 212);
+    font-size: 20px;
+    padding: 1em;
+    margin-right: 70px;
+ }
+ 
+ .back-to-top:hover {   
+    background-color: rgb(134, 170, 180);
+    text-decoration:none;
+    color:#ffffff;
+ }
+  
+
+ /* SKILLBAR
+---------------------------------------------------- */
+
+
+ .row {
+     width: 330%;;
+ }
+ .skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: pink;
+}
+
+.skillbar-title {
+    font-weight: 600;
+    line-height: 1;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+ /* PORTFOLIO
+---------------------------------------------------- */
+
+.portcontainer {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    height: 300px;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;  
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 86.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .portcontainer:hover .overlay {
+    opacity: 1;
+  }
+
+  #ervaringen { height: 600px; }
