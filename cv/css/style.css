@@ -250,4 +250,7 @@ html{
   .portcontainer:hover .overlay {
     opacity: 1;
   }
-  
+
+  .ervaring {
+    float: right; text-align:right; padding-right: 3%;
+  }
